@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
-    [SerializeField] GameObject objectToTrack;
+    
     private bool openDoor = false;
     private float smooth = .01f;
     // Start is called before the first frame update
